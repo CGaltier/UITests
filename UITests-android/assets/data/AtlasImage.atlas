@@ -1,0 +1,53 @@
+
+AtlasImage.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+back320
+  rotate: false
+  xy: 1, 165
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+button128
+  rotate: false
+  xy: 1, 35
+  size: 128, 128
+  split: 49, 49, 48, 65
+  pad: 18, 18, 16, 16
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+button64
+  rotate: false
+  xy: 323, 421
+  size: 64, 64
+  split: 23, 22, 22, 32
+  pad: 10, 8, 10, 12
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+button32
+  rotate: false
+  xy: 1, 1
+  size: 32, 32
+  split: 9, 9, 11, 15
+  pad: 6, 6, 3, 4
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+AtlasImage2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+button
+  rotate: false
+  xy: 1, 1
+  size: 254, 254
+  split: 115, 115, 112, 127
+  pad: 36, 35, 37, 30
+  orig: 254, 254
+  offset: 0, 0
+  index: -1
