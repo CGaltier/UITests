@@ -13,10 +13,10 @@ public class Main {
 		cfg.useGL20 = false;
 		cfg.width = 480;
 		cfg.height = 320;
-		//Settings settings = new Settings ();
-		//settings.maxHeight=512;
-		//settings.maxWidth=512;
-		//TexturePacker2.process (settings,"../UITests/images/images","../UITests-android/assets/data","AtlasImage");
+		Settings settings = new Settings ();
+		settings.maxHeight=512;
+		settings.maxWidth=512;
+		TexturePacker2.process (settings,"../UITests/images/images","../UITests-android/assets/data","AtlasImage");
 		new LwjglApplication(new UITests(), cfg);
 	}
 }
